@@ -116,7 +116,6 @@ src/
 ### Install and run
 
 ```bash
-cd frontend
 npm install
 npm run dev
 ```
@@ -127,7 +126,7 @@ editing.
 ### Build for production
 
 ```bash
-npm run build      # tsc -b && vite build → frontend/dist
+npm run build      # tsc -b && vite build → dist
 npm run preview    # serve the built bundle with COOP/COEP headers
 ```
 
